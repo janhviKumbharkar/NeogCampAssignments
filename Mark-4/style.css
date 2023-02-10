@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 85%;
+  width: 100%;
+}
+:root {
+  --primary-color: #111827;
+  --secondary-color: #a1a1aa;
+  --gray-color:#e5e7eb;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  max-width: 85%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-head {
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.navbar .nav-links {
+  text-align: right;
+  margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+.navbar .link-active {
+  font-weight: bold;
+}
+
+.list-item {
+  list-style: none;
+  display: inline;
+}
+
+/* Header */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color:var(--secondary-color);
+    text-align: center;
+    padding-top: 1rem;
+}
+.hero .heading-colored{
+    color:var(--primary-color);
+}
+
+/* section */
+section{
+    display: block;
+}
+.container {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+}
+.section-one{
+    background-color:#f3f4f6;
+    border-radius: 1rem;
+}
+
+/* links */
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    color: var(--gray-color);
+    border-radius: 1rem;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    margin: auto;
+}
+.secondary-link{
+    background-color: var(--gray-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    margin: auto;
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    color: var(--gray-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--gray-color);
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    color: var(--gray-color);
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
