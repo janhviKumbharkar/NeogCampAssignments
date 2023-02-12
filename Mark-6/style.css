@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Kalam", cursive;
+    color: black;
+  }
+  
+  /* title */
+  header h1 {
+    background-color: #f2c94c;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* textarea */
+  #txt-input {
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    min-height: 20vh;
+    margin: 2.5rem auto;
+    font-size: larger;
+  }
+  
+  /* button */
+  .btn {
+    text-align: center;
+  }
+  #btn-translate {
+    background-color: #f2c94c;
+    color: black;
+    margin: 1rem auto;
+    padding: 1.5rem;
+  }
+  
+  /* another-textarea */
+  #translated {
+    text-align: center;
+    display: block;
+  }
+  #translated p {
+    margin-bottom: 2rem;
+    font-size: large;
+  }
+  #output {
+    width: 40%;
+    min-height: 15vh;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #f2c94c;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
