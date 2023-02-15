@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CashApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading -->
+      <h1 class="header">Cash Register Manager</h1>
+
+      <!-- Description -->
+      <p class="sub">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+
+      <!-- Input -->
+      <label for="Bill-Amount">Bill Amount</label>
+      <input id="Bill-Amount" type="number" />
+      <label for="Cash-Given">Cash Given</label>
+      <input id="Cash-Given" type="number" />
+
+      <!-- Button -->
+      <button id="check-button">Check</button>
+
+      <!-- error message -->
+      <p id="error-message"></p>
+      <!-- Table -->
+      <table class="table-change">
+        <caption>
+          Return Change
+        </caption>
+        <tr>
+          <th>No of Notes</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <p>© | 2021 | adarshbalika</p>
+      <ul class="footer-list">
+        <li>
+          <a
+            class="links"
+            href="https://github.com/janhviKumbharkar"
+            target="_blank"
+          >
+            <img src="images/github.svg" alt="github" />
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://twitter.com/JanhviKumbhark1"
+            target="_blank"
+          >
+            <img src="images/twitter.svg" alt="twitter" />
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://www.instagram.com/neogcamp"
+            target="_blank"
+          >
+            <img src="images/instagram.svg" alt="instagram" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

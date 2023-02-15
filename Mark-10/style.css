@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 100vw;
+}
+:root {
+  --primary-color: #7c3aed;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.header {
+  color: var(--primary-color);
+  padding: 1.2rem;
+  font-size: 2rem;
+}
+.sub {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+#Bill-Amount,
+#Cash-Given {
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: black;
+}
+input#Bill-Amount,
+#Cash-Given {
+  background: #ffffff;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+#check-button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+caption {
+  margin: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 0.4rem bold;
+  padding: 0.2rem;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--primary-color);
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+}
+th,
+td {
+  border: 2px solid var(--primary-color);
+  padding: 0.4rem;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: large;
+  margin: 0.5rem;
+}
+.footer-list {
+  list-style: none;
+  margin: 1rem;
+  display: inline-flex;
+}
+.links {
+  padding: 0.1rem;
+  margin: 0.3rem;
+  font-size: larger;
+}
